@@ -2,6 +2,17 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {
+      screens: {
+        lgC: "1140px",
+      },
+      width: {
+        95: "95%",
+        90: "90%",
+        85: "85%",
+        80: "80%",
+        70: "70%",
+        60: "60%",
+      },
       colors: {
         primary: "#353353",
         secondary: "#ff4c60",
@@ -16,6 +27,10 @@ module.exports = {
       },
       fontFamily: {
         courgette: ["Courgette", "cursive"],
+        rubik: ["Rubik", "sans-serif"],
+      },
+      gridTemplateColumns: {
+        aboutLg: "repeat(1, 30% 1fr)",
       },
     },
   },

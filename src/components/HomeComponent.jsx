@@ -19,9 +19,9 @@ const HomeComponent = () => {
         <div className="h-48 w-48 rounded-full">
           <img src={sampleProfile} alt="profile" className="h-full w-full" />
         </div>
-        <div className="text-center mt-4">
+        <div className="text-center mt-16">
           <h2 className="text-white font-courgette lg:text-6xl md:text-5xl text-3xl ">
-            <span className="block sm:inline">I'm Dries Van Dessel </span>
+            <span className="block ">I'm Dries Van Dessel </span>
 
             <span className="text-secondary">
               <Typewriter
@@ -63,7 +63,7 @@ const HomeComponent = () => {
             color={"hover:text-green-500"}
           />
         </div>
-        <button className="py-2 px-8 border border-secondary rounded-3xl bg-secondary  text-white font-bold hover:text-secondary hover:bg-transparent transform hover:scale-110 duration-500">
+        <button className="py-2 px-8 border border-secondary rounded-3xl bg-secondary  text-white font-bold hover:text-secondary hover:bg-transparent transform hover:scale-110 duration-500 font-rubik">
           More About Me
         </button>
       </div>
