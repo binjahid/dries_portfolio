@@ -3,7 +3,7 @@ import ProgressBar from "common/ProgressBar";
 
 const AboutComponent = () => {
   return (
-    <section className="customContainer py-20 font-rubik text-primary">
+    <section className="customContainer md:py-52 py-24 font-rubik text-primary">
       <h2 className="text-5xl text-center font-bold pt-8 pb-20">About Me</h2>
       <div className="grid md:grid-cols-aboutLg grid-cols-1">
         <div className="flex justify-center flex-col items-center">

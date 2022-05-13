@@ -9,4 +9,18 @@
     .customContainer {
         @apply w-95 md:w-90 lgC:w-70 m-auto
     }
+    .overlay {
+        @apply absolute lg:w-96 lg:h-96 w-full h-full inset-0 z-10 left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-full opacity-0 duration-500 ;
+        background-color: rgba(0, 0, 0, 0.5);
+        transition: all 0.5s linear;
+    }
+    .projectHoverTitle{
+        @apply opacity-0 duration-500
+    }
+    .projectContainer:hover .overlay {
+        @apply opacity-100
+    }
+    .projectContainer:hover .projectHoverTitle{
+        @apply opacity-100
+    }
 }
