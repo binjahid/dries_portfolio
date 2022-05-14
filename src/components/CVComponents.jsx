@@ -3,7 +3,7 @@ import Ratting from "common/Ratting";
 const CVComponents = () => {
   return (
     <section className="my-40">
-      <h2 className="text-center text-primary font-rubik text-4xl font-bold underline py-20">
+      <h2 className="text-center text-primary font-rubik text-5xl font-bold underline py-20">
         CV
       </h2>
       <div className="customContainer bg-primary shadow-2xl rounded-lg text-white font-rubik p-8">
