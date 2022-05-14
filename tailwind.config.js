@@ -23,9 +23,6 @@ module.exports = {
         instagram: "#e1306c",
         phone: "#f5f5f5",
       },
-      backgroundImage: {
-        "home-bg": "url('assets/images/homeBg.jpg')",
-      },
       fontFamily: {
         courgette: ["Courgette", "cursive"],
         rubik: ["Rubik", "sans-serif"],
@@ -35,5 +32,5 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 };
