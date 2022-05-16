@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Bahnschrift";
+    src: url(./assets/fonts/BahnschriftRegular.ttf);
+}
+
+@font-face {
+    font-family: "BellMt";
+    src: url(./assets/fonts/BellMT.ttf);
+}

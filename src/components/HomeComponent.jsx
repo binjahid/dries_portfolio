@@ -14,13 +14,13 @@ const HomeComponent = () => {
   });
 
   return (
-    <section className="w-full h-screen bg-primary flex justify-center items-center">
+    <section className="w-full h-screen bg-homeBg bg-no-repeat bg-center bg-cover flex justify-center items-center">
       <div className="flex flex-col justify-center items-center">
         <div className="h-48 w-48 rounded-full">
           <img src={sampleProfile} alt="profile" className="h-full w-full" />
         </div>
         <div className="text-center mt-16">
-          <h2 className="text-white font-courgette lg:text-6xl md:text-5xl text-3xl ">
+          <h2 className="text-white font-bahnschrift lg:text-6xl md:text-5xl text-3xl ">
             <span className="block ">I'm Dries Van Dessel </span>
 
             <span className="text-secondary">
@@ -63,7 +63,7 @@ const HomeComponent = () => {
             color={"hover:text-green-500"}
           />
         </div>
-        <button className="py-2 px-8 border border-secondary rounded-3xl bg-secondary  text-white font-bold hover:text-secondary hover:bg-transparent transform hover:scale-110 duration-500 font-rubik">
+        <button className="py-2 px-8 border border-secondary rounded-3xl bg-secondary  text-white font-bold hover:text-secondary hover:bg-transparent transform hover:scale-110 duration-500 font-bellMt">
           More About Me
         </button>
       </div>

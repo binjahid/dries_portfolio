@@ -17,10 +17,10 @@ const ProjectComponent = () => {
   ];
 
   return (
-    <section className="bg-primary">
-      <div className="w-95 sm:w-98 m-auto lg:w-80 py-20 font-rubik text-white">
+    <section className="bg-projectBg3 pb-32 bg-no-repeat bg-center bg-cover">
+      <div className="w-95 sm:w-98 m-auto lg:w-80 py-20 font-bellMt text-white">
         <div className="pb-20">
-          <h2 className="text-5xl text-center font-bold pt-8 pb-8 underline">
+          <h2 className="text-5xl text-center font-bold pt-8 pb-8 font-bahnschrift underline">
             Project
           </h2>
           <p className="text-center text-lg">| Some of my projects |</p>
@@ -31,7 +31,7 @@ const ProjectComponent = () => {
               key={index}
               className="flex flex-col justify-center items-center"
             >
-              {index === 1 && <div className="h-20"></div>}
+              {index === 1 && <div className="md:h-32 h-0"></div>}
               <div className="lg:h-96 lg:w-96 w-full h-full relative projectContainer cursor-pointer">
                 <a href={project.Link}>
                   {" "}

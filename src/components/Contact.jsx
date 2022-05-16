@@ -29,8 +29,10 @@ const Contact = () => {
   return (
     <section className="bg-primary">
       <div className="customContainer">
-        <div className="text-center text-white font-rubik">
-          <h2 className="text-5xl font-bold underline py-20">Contact</h2>
+        <div className="text-center text-white font-bellMt">
+          <h2 className="text-5xl font-bold underline py-20 font-bahnschrift">
+            Contact
+          </h2>
           <p className="text-xl font-semibold">I'd love to hear from you.</p>
           <p className="text-xl font-semibold">
             | If you have some questions for me. Feel free to ask! |

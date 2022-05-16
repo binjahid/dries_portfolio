@@ -17,6 +17,7 @@ module.exports = {
       colors: {
         primary: "#353353",
         secondary: "#ff4c60",
+        tertiary: "#DEDEDE",
         facebook: "#3b5998",
         gmail: "#d44638",
         twitter: "#1da1f2",
@@ -24,11 +25,15 @@ module.exports = {
         phone: "#f5f5f5",
       },
       fontFamily: {
-        courgette: ["Courgette", "cursive"],
-        rubik: ["Rubik", "sans-serif"],
+        bahnschrift: ["Bahnschrift", "sans-serif"],
+        bellMt: ["BellMt", "serif"],
       },
       gridTemplateColumns: {
         aboutLg: "repeat(1, 30% 1fr)",
+      },
+      backgroundImage: {
+        homeBg: "url('assets/images/bg.jpg')",
+        projectBg3: "url('assets/images/bg4.jpg')",
       },
     },
   },
