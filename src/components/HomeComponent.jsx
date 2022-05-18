@@ -63,9 +63,11 @@ const HomeComponent = () => {
             color={"hover:text-green-500"}
           />
         </div>
-        <button className="py-2 px-8 border border-secondary rounded-3xl bg-secondary  text-white font-bold hover:text-secondary hover:bg-transparent transform hover:scale-110 duration-500 font-bellMt">
-          More About Me
-        </button>
+        <a href="#about">
+          <button className="py-2 px-8 border border-secondary rounded-3xl bg-secondary  text-white font-bold hover:text-secondary hover:bg-transparent transform hover:scale-110 duration-500 font-bellMt">
+            More About Me
+          </button>
+        </a>
       </div>
     </section>
   );

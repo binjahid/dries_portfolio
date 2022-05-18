@@ -3,7 +3,10 @@ import ProgressBar from "common/ProgressBar";
 
 const AboutComponent = () => {
   return (
-    <section className="customContainer md:py-52 py-24 font-bellMt text-primary">
+    <section
+      className="customContainer md:py-52 py-24 font-bellMt text-primary"
+      id="about"
+    >
       <h2 className="text-5xl text-center font-bahnschrift font-bold pt-8 pb-20">
         About Me
       </h2>
